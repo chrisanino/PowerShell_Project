@@ -1,0 +1,2 @@
+Add-WindowsFeature AD-Domain-Services, RSAT-AD-AdminCenter,RSAT-ADDS-Tools
+Install-addsdomaincontroller -installdns -domainname shadowlab.com
